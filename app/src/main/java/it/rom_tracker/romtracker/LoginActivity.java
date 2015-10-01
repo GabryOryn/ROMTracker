@@ -1,6 +1,7 @@
 package it.rom_tracker.romtracker;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -51,6 +52,7 @@ public class LoginActivity extends Activity {
                             // correct login
                             if(parseUser != null){
                                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.welcome_login) + "," + username + "!", Toast.LENGTH_LONG).show();
+                                startActivity(new Intent(getApplicationContext(), DeveloperActivity.class));
                             // incorrect login
                             }else{
                                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.error_wrong_data_login), Toast.LENGTH_LONG).show();

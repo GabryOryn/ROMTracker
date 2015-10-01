@@ -3,22 +3,16 @@ package it.rom_tracker.romtracker;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        super.onCreateDrawer();
 
-        getSupportActionBar().setTitle(getResources().getString(R.string.app_name));
-
-        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawerLayout.setStatusBarBackground(R.color.primaryColorDark);
     }
 
     @Override

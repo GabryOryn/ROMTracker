@@ -3,4 +3,11 @@
     <string name="error_no_data_login">Errore, la password o l\'username non può essere vuoto!</string>
     <string name="error_wrong_data_login">Errore, password o username errato!</string>
     <string name="welcome_login">Benvenuto</string>
+
+    <string name="add_rom">Aggiungi ROM</string>
+    <string name="edit_rom">Modifica ROM</string>
+    <string name="name_rom">Nome ROM</string>
+    <string name="version_rom">Versione ROM</string>
+    <string name="changelog_rom">Changelog ROM</string>
+    <string name="link_rom">Link Download</string>
 </resources>
