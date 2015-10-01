@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_data_login">Errore, la password o l\'username non può essere vuoto!</string>
+    <string name="error_wrong_data_login">Errore, password o username errato!</string>
+    <string name="welcome_login">Benvenuto</string>
+</resources>
