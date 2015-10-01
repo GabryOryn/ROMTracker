@@ -2,8 +2,16 @@
     <string name="app_name">ROMTracker</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- NAVIGATION DRAWER -->
+    <string name="drawer_open" translatable="false">Open</string>
+    <string name="drawer_closed" translatable="false">Close</string>
+    <string name="feedback" translatable="false">Feedback</string>
+
+    <!-- LOGINACTIVITY -->
     <string name="title_activity_login">Login ROMTracker</string>
     <string name="error_no_data_login">Error, password or username can\'t be blank!</string>
     <string name="error_wrong_data_login">Error, incorrect username or password!</string>
     <string name="welcome_login">Welcome</string>
+
 </resources>
