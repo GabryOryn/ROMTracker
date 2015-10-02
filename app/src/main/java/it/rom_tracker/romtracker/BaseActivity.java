@@ -27,4 +27,54 @@ public class BaseActivity extends ActionBarActivity{
 
     }
 
+    /**
+     * Apre la MainActivity;
+     * Ritarda di 250 millisecondi per sincornizzarsi col Navigation Drawer.
+     */
+    public void main(View v) {
+
+        android.os.Handler mHandler = new android.os.Handler();
+
+        mHandler.removeCallbacksAndMessages(null);
+
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(BaseActivity.this, MainActivity.class);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
+                finish();
+            }
+        }, 250);
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerLayout.closeDrawers();
+
+    }
+
+    /**
+     * Apre la SettingsActivity;
+     * Ritarda di 250 millisecondi per sincornizzarsi col Navigation Drawer.
+     */
+    public void settings(View v) {
+
+        android.os.Handler mHandler = new android.os.Handler();
+
+        mHandler.removeCallbacksAndMessages(null);
+
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(BaseActivity.this, SettingsActivity.class);
+                startActivity(intent);
+                overridePendingTransition(0,0);
+                finish();
+            }
+        }, 250);
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerLayout.closeDrawers();
+
+    }
+
 }

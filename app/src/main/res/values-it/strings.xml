@@ -7,9 +7,6 @@
     <string name="welcome_login">Benvenuto</string>
 
     <!-- NAVIGATION DRAWER -->
-    <string name="drawer_open" translatable="false">Apri</string>
-    <string name="drawer_closed" translatable="false">Chiudi</string>
-    <string name="feedback" translatable="false">Feedback</string>
 
     <!-- DEVELOPERACTIVITY -->
     <string name="add_rom">Add ROM</string>
@@ -25,5 +22,8 @@
     <string name="version_rom">Versione ROM</string>
     <string name="changelog_rom">Changelog ROM</string>
     <string name="link_rom">Link Download</string>
+    <string name="settings">Impostazioni</string>
+    <string name="title_activity_login">Accedi</string>
+    <string name="title_activity_developer">Sviluppatore</string>
 
 </resources>
