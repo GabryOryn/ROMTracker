@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- LOGINACTIVITY -->
     <string name="error_no_data_login">Errore, la password o l\'username non può essere vuoto!</string>
     <string name="error_wrong_data_login">Errore, password o username errato!</string>
     <string name="welcome_login">Benvenuto</string>
 
-    <string name="add_rom">Aggiungi ROM</string>
+    <!-- NAVIGATION DRAWER -->
+    <string name="drawer_open" translatable="false">Apri</string>
+    <string name="drawer_closed" translatable="false">Chiudi</string>
+    <string name="feedback" translatable="false">Feedback</string>
+
+    <!-- DEVELOPERACTIVITY -->
+    <string name="add_rom">Add ROM</string>
+    <string name="error_no_name_rom">Il nome della rom non può essere vuoto</string>
+    <string name="error_no_version_rom">La versione della rom non può essere vuota</string>
+    <string name="error_no_link_rom">Il link della rom non può essere vuota</string>
+
+    <!-- DIALOG_ADD_ROM -->
+    <string name="submitted_successfully">La rom è stata inserita correttamente!</string>
+    <string name="submitted_error">Errore imprevisto, riprova tra poco</string>
     <string name="edit_rom">Modifica ROM</string>
     <string name="name_rom">Nome ROM</string>
     <string name="version_rom">Versione ROM</string>
     <string name="changelog_rom">Changelog ROM</string>
     <string name="link_rom">Link Download</string>
+
 </resources>

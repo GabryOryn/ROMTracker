@@ -7,15 +7,16 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/txtNameRom"
         android:layout_gravity="center_horizontal"
         android:hint="@string/name_rom" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/txtVersionRom"
         android:hint="@string/version_rom" />
 
     <EditText
@@ -23,21 +24,14 @@
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:ems="10"
-        android:id="@+id/editText4"
+        android:id="@+id/txtChangelogRom"
         android:layout_weight="0.20"
         android:hint="Changelog:" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
+        android:id="@+id/txtLinkRom"
         android:hint="@string/link_rom" />
-
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:text="@string/add_rom"
-        android:id="@+id/btnSendRom"
-        android:layout_gravity="right" />
 
 </LinearLayout>
